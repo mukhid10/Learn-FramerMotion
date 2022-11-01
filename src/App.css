@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 3rem;
+}
+
+.box-container {
+  padding: 3rem 0 0 2rem;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.boxItem {
+  list-style: none;
+  width: 0.5rem;
+  height: 0.5rem;
+  padding: 1rem;
+  margin: 0.3rem;
+  background-color: yellow;
+}
+
+button {
+  color: white;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+  border: none;
+  background-color: blueviolet;
+  cursor: pointer;
+}
